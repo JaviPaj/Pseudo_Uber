@@ -4,5 +4,3 @@ class Account:
     document    = str
     email       = str
     password    = str
-
-
