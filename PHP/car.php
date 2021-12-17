@@ -4,5 +4,4 @@ class Car{
     public $license;
     public $driver;
     public $passenger;
-    public $password;
 }
