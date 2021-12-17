@@ -1,16 +1,11 @@
+# desde el archivo importo las clases
 from car import Car
-# desde el archivo importo la clase
+from account import Account
 
 if __name__ == "__main__":
     print('Aqui estoy con PY')
     
-    # Seguido se crearan los objets car instanciando la clase Car.
-    car = Car()
-    car.license = "WQE785"
-    car.driver = "Anibal Vasquez"
+    # Seguido se crearan los métodos constructores.
+    car = Car("WQE785", Account("Anibal Vasquez", "COL34"))
     print(vars(car))
-
-    car1 = Car()
-    car1.license = "OPD165"
-    car1.driver = "Oscar Duarte"
-    print(vars(car1))
+    print(vars(car.driver))
